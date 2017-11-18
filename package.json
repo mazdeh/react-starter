@@ -1,0 +1,43 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack --watch",
+    "build:prod": "webpack -p",
+    "test": "jest --config jest.config.js --no-cache",
+    "test:watch": "npm test -- --watch"
+  },
+  "keywords": [
+    "react-starter"
+  ],
+  "author": "Vahid Mazdeh",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.0"
+  }
+}
